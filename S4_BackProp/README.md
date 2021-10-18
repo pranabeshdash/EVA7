@@ -7,7 +7,7 @@ Initial weights,
     w1 = 0.15	w2 = 0.2	w3 = 0.25	w4 = 0.3
     w5 = 0.4	w6 = 0.45	w7 = 0.5	w8 = 0.55
 
-
+![Backpropagation Graph](https://github.com/pranabeshdash/EVA7/blob/main/S4_BackProp/BP_graph.png)
 
 Given two inputs with values 0.05 and 0.10 and two exprected outputs 0.01 and 0.99.
 
