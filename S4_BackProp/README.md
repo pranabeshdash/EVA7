@@ -2,8 +2,6 @@
 
 Backpropagation is used for training a neural network. Backpropagation adjusts the weights so that the neural network can map inputs to outputs. This backpropagation exercise shows the example calculations using excel sheet to help understand backpropagation. A neural network with two inputs, two hidden neurons, two output neurons are used and biases are ignored.
 
-<img src="" width="600">
-
 Initial weights,
 
     w1 = 0.15	w2 = 0.2	w3 = 0.25	w4 = 0.3
@@ -101,13 +99,10 @@ Update the weights by subtracting gradient times learning rate from current weig
 
 ## Error Graph for different Learning rates
 
-Link to Excel Sheet - https://github.com/
+Link to Excel Sheet - https://github.com/pranabeshdash/EVA7/blob/main/S4_BackProp/BackPropagation.xlsx
 
 Below is the error graph when we change the learning rates 0.1, 0.2, 0.5, 0.8, 1.0, 2.0
 
-
-
-<img src="" width="600">
 
 For small learning rate the loss drops very slowly and takes longer to converge.
 Learning rate should be optimal (neither too low nor too high) for learning to occur.
