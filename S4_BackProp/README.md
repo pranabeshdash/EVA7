@@ -2,12 +2,13 @@
 
 Backpropagation is used for training a neural network. Backpropagation adjusts the weights so that the neural network can map inputs to outputs. This backpropagation exercise shows the example calculations using excel sheet to help understand backpropagation. A neural network with two inputs, two hidden neurons, two output neurons are used and biases are ignored.
 
+![Network Arch ](https://github.com/pranabeshdash/EVA7/blob/main/S4_BackProp/NN_arch.png)
+
 Initial weights,
 
     w1 = 0.15	w2 = 0.2	w3 = 0.25	w4 = 0.3
     w5 = 0.4	w6 = 0.45	w7 = 0.5	w8 = 0.55
 
-![Backpropagation Graph](https://github.com/pranabeshdash/EVA7/blob/main/S4_BackProp/BP_graph.png)
 
 Given two inputs with values 0.05 and 0.10 and two exprected outputs 0.01 and 0.99.
 
@@ -98,6 +99,7 @@ Update the weights by subtracting gradient times learning rate from current weig
 
 
 ## Error Graph for different Learning rates
+![Backpropagation Graph](https://github.com/pranabeshdash/EVA7/blob/main/S4_BackProp/BP_graph.png)
 
 Link to Excel Sheet - https://github.com/pranabeshdash/EVA7/blob/main/S4_BackProp/BackPropagation.xlsx
 
