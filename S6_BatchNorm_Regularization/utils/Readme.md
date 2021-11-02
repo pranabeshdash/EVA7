@@ -7,4 +7,4 @@ The code is modularized and has seperate functions:
 - and also a few helper fucntions to load the data, print missclassified images
 
 
-The base model was taken from the previous [assignment](https://github.com/gkdivya/EVA/blob/main/5_CodingDrillDown/MNIST_BestModel.ipynb)
+The base model was taken from the previous [assignment](https://github.com/pranabeshdash/EVA7/blob/main/5_CodingDrillDown/MNIST_BestModel.ipynb)
