@@ -26,16 +26,16 @@ Scheduler - OneCycleLR <br>
 
 ### Observations
 - When we apply LayerNorm, GroupNorm and BatchNorm techniques individually, without any regularization we observe that BatchNorm performs better than other two techniques.
-- Batch norm performed better with higher batch sizes, details can be found [here](https://github.com/pranabeshdash/EVA7/blob/main/S6_BatchNorm_Regularization/Experiments/BatchNorm/README.md)
-- We found that GroupNorm was better than batch norm when we have smaller batch size, details can be found [here](https://github.com/pranabeshdash/EVA7/blob/main/S6_BatchNorm_Regularization/Experiments/GroupNorm/README.md)
-- Layernorm performance was lower compared to other two techniques, however we could see some improvement when used with regularization, details can be found [here](https://github.com/pranabeshdash/EVA7/blob/main/S6_BatchNorm_Regularization/Experiments/LayerNorm/README.md)
+- Batch norm performed better with higher batch sizes, details can be found [here](https://github.com/pranabeshdash/EVA7/blob/main/S6_BatchNorm_Regularization/Expt/BatchNorm/README.md)
+- We found that GroupNorm was better than batch norm when we have smaller batch size, details can be found [here](https://github.com/pranabeshdash/EVA7/blob/main/S6_BatchNorm_Regularization/Expt/GroupNorm/README.md)
+- Layernorm performance was lower compared to other two techniques, however we could see some improvement when used with regularization, details can be found [here](https://github.com/pranabeshdash/EVA7/blob/main/S6_BatchNorm_Regularization/Expt/LayerNorm/README.md)
 
 
 
 
 ### About Code
 
-The final code can be found [here](https://github.com/pranabeshdash/EVA7/blob/main/S6_BatchNorm_Regularization/MNIST_Normalization_and_Regularization_v1.ipynb) and code for individual experiments for each normalization technique can be found [here](https://github.com/pranabeshdash/EVA7/tree/main/S6_BatchNorm_Regularization/Experiments)
+The final code can be found [here](https://github.com/pranabeshdash/EVA7/blob/main/S6_BatchNorm_Regularization/MNIST_Normalization_and_Regularization_v1.ipynb) and code for individual experiments for each normalization technique can be found [here](https://github.com/pranabeshdash/EVA7/tree/main/S6_BatchNorm_Regularization/Expt)
 
 We have used modularized structure for this assignment by creating few utility funtions, the details for this can be found [here](https://github.com/pranabeshdash/EVA7/tree/main/S6_BatchNorm_Regularization/utils)
 
