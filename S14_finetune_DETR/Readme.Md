@@ -29,7 +29,7 @@ DETR makes a fixed set of predictions which need to be narrowed down to the spec
 
 ## Fine Tuning DETR on Custom Dataset
 
-The notebook for the fine tuning exercise can be found [here](https://github.com/pranabeshdash/EVA7/S14_finetune_DETR/EVA7_S14_finetune_detr.ipynb).
+The notebook for the fine tuning exercise can be found [here](https://github.com/pranabeshdash/EVA7/blob/main/S14_finetune_DETR/EVA7_S14_finetune_detr.ipynb).
 
 ### Metrics
 
