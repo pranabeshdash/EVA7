@@ -1,6 +1,6 @@
 # EVA7 - Session 14 - DETR - End to End Object Detection with Transformers
 
-## Submission by :
+## Submission by Team :
 Pranabesh Dash
 Satya Nekkanti
 
@@ -29,18 +29,15 @@ DETR makes a fixed set of predictions which need to be narrowed down to the spec
 
 ## Fine Tuning DETR on Custom Dataset
 
-The notebook for the fine tuning exercise can be found [here](https://github.com/a-pujahari/EVA7/blob/main/Session14/EVA7_Session14_FineTuningDETR.ipynb).
+The notebook for the fine tuning exercise can be found [here](https://github.com/pranabeshdash/EVA7/S14_finetune_DETR/EVA7_S14_finetune_detr.ipynb).
 
 ### Metrics
 
 Illustrated below are the loss and mean average precision value progression captured during training. 
 
-![metrics](https://github.com/a-pujahari/EVA7/blob/main/Session14/train_metrics.png)
+![metrics]()
 
 ### Results 
 
-![train_image](https://github.com/a-pujahari/EVA7/blob/main/Session14/val_image_result.png)
-
-![validation_image](https://github.com/a-pujahari/EVA7/blob/main/Session14/train_image_result.png)
 
 
