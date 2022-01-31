@@ -10,7 +10,7 @@ Goals:
 
 ## DETR
 
-![DETR_Arch](https://github.com/pranabeshdash/EVA7/S14_finetune_DETR/DETR_Arch.png)
+![DETR_Arch](https://github.com/pranabeshdash/EVA7/blob/main/S14_finetune_DETR/DETR_Arch.png)
 
 ### DETR Architecture
 
@@ -19,11 +19,11 @@ DETR consists of 3 main components:
 2. Encoder-Decoder transformer
 3. Feed forward network as head a prediction head
 
-![DETR_backbone](https://github.com/pranabeshdash/EVA7/S14_finetune_DETR/DETR_transformer.png)
+![DETR_backbone](https://github.com/pranabeshdash/EVA7/blob/main/S14_finetune_DETR/DETR_transformer.png)
 
 ### Bipartite Matching Loss
 
-![bipartite](https://github.com/pranabeshdash/EVA7/S14_finetune_DETR/bipartite_matching_loss.png)
+![bipartite](https://github.com/pranabeshdash/EVA7/blob/main/S14_finetune_DETR/bipartite_matching_loss.png)
 
 DETR makes a fixed set of predictions which need to be narrowed down to the specific number of objects present in the image. This is done through bipartite matching i.e, one to one comparisons of the object predictions helping to eliminate low quality predictions and helping to achieve output reductions like NMS.
 
